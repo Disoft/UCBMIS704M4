@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "64a2f1c8e4b0a12345678901",
+    "sku": "LAP-PRO-15",
+    "nombre": "Laptop Pro 15\"",
+    "precio": 1200.00,
+    "categoria": "Electrónica",
+    "especificaciones": {
+      "ram": "16GB",
+      "cpu": "Intel Core i7",
+      "almacenamiento": "512GB SSD",
+      "puertos": ["USB-C", "HDMI", "Jack 3.5mm"]
+    },
+    "activo": true
+  },
+  {
+    "_id": "64a2f1c8e4b0a12345678902",
+    "sku": "CAM-ALG-01",
+    "nombre": "Camiseta de Algodón Básica",
+    "precio": 25.50,
+    "categoria": "Ropa",
+    "atributos_ropa": {
+      "talles_disponibles": ["S", "M", "L", "XL"],
+      "colores": ["Blanco", "Negro", "Azul Marino"],
+      "material": "100% Algodón Orgánico"
+    },
+    "activo": true
+  }
+]

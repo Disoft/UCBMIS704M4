@@ -1,0 +1,6 @@
+@MIS704.Observability2_HostAddress = http://localhost:5270
+
+GET {{MIS704.Observability2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

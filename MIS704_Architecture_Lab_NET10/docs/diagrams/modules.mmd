@@ -1,0 +1,4 @@
+flowchart LR
+    Enrollment[Enrollment Module] -->|port IEnrollmentRepository| Persistence[Persistence Adapter]
+    Enrollment -->|port IEventPublisher| Messaging[Event Adapter]
+    Enrollment --> Domain[Domain Rules]

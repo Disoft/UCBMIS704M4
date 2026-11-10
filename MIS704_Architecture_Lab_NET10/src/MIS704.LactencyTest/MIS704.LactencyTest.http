@@ -1,0 +1,6 @@
+@MIS704.LactencyTest_HostAddress = http://localhost:5271
+
+GET {{MIS704.LactencyTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

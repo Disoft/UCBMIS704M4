@@ -1,0 +1,9 @@
+flowchart TD
+    Client[Cliente HTTP] --> API[MIS704.WebApi]
+    API --> APP[MIS704.Application]
+    APP --> DOMAIN[MIS704.Domain]
+    INFRA[MIS704.Infrastructure] --> APP
+    INFRA --> DOMAIN
+    API --> INFRA
+    DEMO[MIS704.Demo] --> APP
+    TEST[MIS704.Tests] --> APP

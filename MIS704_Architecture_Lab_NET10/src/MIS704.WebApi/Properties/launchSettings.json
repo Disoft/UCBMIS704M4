@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MIS704.WebApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50125;http://localhost:50126"
+    }
+  }
+}
